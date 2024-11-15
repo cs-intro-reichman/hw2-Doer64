@@ -1,6 +1,6 @@
 // Computes an approximation of PI.
 public class CalcPi {
-	public static void main(String [] args) { 
+	public static void main(String [] args) {  
 		int times = Integer.parseInt(args[0]);
 		double sum = 0;
 		int num = 1;
@@ -12,7 +12,8 @@ public class CalcPi {
 			num += 2;
 		}
 
-		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated:     " + sum*4);
+		System.out.println("pi according to Java: " + Math.PI);  //prints the actual value of pi
+		System.out.println("pi, approximated:     " + sum*4);  //prints the approximation of pi
+
 	}
 }
